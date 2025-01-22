@@ -1,27 +1,33 @@
 body { /* Assignment1 */
   font-family: Arial;
-  background-color: #3700ffea;
+  background-color: #4A15F8;
   color: #ffffff;
   margin: 0px;
 }
-.section-1 { /* Header */
+
+ /* Header */
+.navbar { 
   display: flex;
   margin: 1px;
 }
+
 .styled-image-1 {
   margin: 10px 20px;
 }
+
 a:visited {
   color: #ffffff;
 }
+
 a:hover {
   color: aqua;
 }
+
 .styled-link {
   display: flex;
-  padding-top: 20px;
-  
+  padding-top: 20px;  
 }
+
 .gradient-button-1 {
   width: 100px;
   height: 30px;
@@ -31,32 +37,38 @@ a:hover {
   background: linear-gradient(to right, #f0b086, #ffa500);
   color: #ffffff;
 }
-.grid-container { 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 120px 20px;
-  gap: 10px;
-  
-}
-.flex-column {
+
+.hero-section { 
   display: flex;
-  flex-direction: column;
-  width: 500px;
-  height: 150px;
-  border: 1px;
-  margin: 20px;  
+  margin: 120px auto;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;  
 }
+
+.hero-left {
+  display: flex;
+  flex-direction: column; 
+  width: 50%;
+  min-width: 500px;
+  margin-left: 30px;
+}
+
 .flex-item-1 {
   width: 700px;
   margin: 1px;
   padding: 1px;
 }
+
 .medium-text {
   font-size: 25px;
 }
+
 .large-text {
   font-size: 35px;
 }
+
 .gradient-button-2 {
   width: 130px;
   height: 40px;
@@ -66,6 +78,7 @@ a:hover {
   background: linear-gradient(to right, #f0b086, #ffa500);
   color: #ffffff;
 }
+
 .grid-column {
   display: grid;
   grid-template-columns: 1fr;
@@ -73,39 +86,41 @@ a:hover {
   gap: 10px;
   padding-right: 1px;
 }
+
 .grid-item {
   padding-right: 40px;
+}
 
-}
 .styled-image-3 {
-  width: 800px;
-  height: 400px;
+  width: 100%;
+  min-width: 50%;
 }
-.section-3 {
+
+.science-title {
   display: flex;
   justify-content: center;
   margin: 120px;
 }
-.section-4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 5px 60px;
-}
+
 .styled-image-4 {
   padding-left: 0px;
+  height: 256px;
 }
+
 .styled-image-5 {
- padding-right: 0px;
+  padding-right: 0px;
+  height: 256px;
 }
-.section-5 {
+
+.info-section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 1px 90px;
-  padding: 0px;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 250px;
 }
+
 .small-text {
   font-size: 22px;
 }
